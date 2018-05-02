@@ -1,0 +1,89 @@
+/* THIS CSS APPLIES TO ALL PAGES */
+
+body {
+    margin: 0px;
+}
+
+.nav-item { 
+    padding: 15px;
+    color: #777777; 
+}
+
+#nav {
+    padding: 0px;
+    background-color: white;
+    margin: 0px;
+}
+
+.JW {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    padding: 12px;
+    width: 150px;
+    position: absolute;
+    margin-left: -1013px;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    background-color: white;
+    clear: both;
+    color: #777777;
+    padding-bottom: 20px;
+    width: 960px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #4aaaa5;
+    padding: 25px;
+}
+
+footer {
+    background-color: darkgray;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+/* THIS CSS APPLIES TO INDEX.HTML ONLY */
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+#bio {
+    background-color: white;
+}
+
+img {
+    width: 250px;
+    height: 230px;
+    float: left;
+    margin-right: 20px;
+}
+
+#aboutMe {
+    color: #4aaaa5;
+    padding: 25px;
+    margin-left: -160px;
+}
+
+
+/* THIS CSS APPLIES TO PORTFOLIO.HTML ONLY */
+
+
+
+/* THIS CSS APPLIES TO CONTACT.HTML ONLY */
+
+form {
+    padding-top: 45px;
+}
+
+
+

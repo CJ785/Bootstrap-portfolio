@@ -1,4 +1,3 @@
-/* THIS CSS APPLIES TO ALL PAGES */
 
 #linkedin, #github {
     height: 50px;
@@ -90,8 +89,6 @@ footer {
 }
 
 
-/* THIS CSS APPLIES TO INDEX.HTML ONLY */
-
 
 /* img {
     width: 125px;
@@ -130,12 +127,6 @@ img {
     margin-left: -160px;
 }
 
-
-/* THIS CSS APPLIES TO PORTFOLIO.HTML ONLY */
-
-
-
-/* THIS CSS APPLIES TO CONTACT.HTML ONLY */
 
 form {
     padding-top: 45px;

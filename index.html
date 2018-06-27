@@ -10,22 +10,27 @@
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="main.js"></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
 </head>
 
-<body background="images/cork-wallet.png">
+<body background="">
     <div id="nav">
         <ul class="nav justify-content-end">
             <li class="JW">
                 <p>Jason Way</p>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="index.html">About</a>
+                <!-- <a class="nav-link" id="linkedin" href="https://www.linkedin.com/feed/" img="images/linkedin.jpg"></a> -->
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <!-- <a class="nav-link active" href="index.html">About</a> -->
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <!-- <a class="nav-link" href="portfolio.html">Portfolio</a> -->
+            </li>
+            <li class="nav-item">
+                <!-- <a class="nav-link" href="contact.html">Contact</a> -->
             </li>
         </ul>
     </div>
@@ -35,12 +40,21 @@
             <div class="col-md-2"></div>
             <div class="col-md-8">
                 <h2 id="aboutMe">About Me</h2>
+
+                <a href='https://www.linkedin.com/feed/' target="_blank">
+                    <img src="images/Linkedin.png" id="linkedin">
+                </a>
+
+                <a href='https://github.com/CJ785/' target='_blank'>
+                    <img src="images/github.png" id="github">
+                </a>
+
             </div>
             <div class="col-md-2"></div>
         </div>
         <hr>
         <br>
-        <img src="images/jwimg.jpg">
+        <img src="images/mypic.jpg" id='photo'>
         <p>
             The standard Lorem Ipsum passage, used since the 1500s "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -58,8 +72,106 @@
             eum fugiat quo voluptas nulla pariatur?"
         </p>
     </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" id="bodyheader">
+                <h2>Portfolio</h2>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <div class="row">
+            <div class="col-md-4">
+                <a href="https://cj785.github.io/clelivemusic/" target='_blank'>
+                    <img src="images/cle.png" class='projLink' id='picshake'>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://cj785.github.io/TriviaGame/" target='_blank'>
+                    <img src="images/trivia2.png" class='projLink' id='picshake'>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://cj785.github.io/Psychic-game/" target='_blank'>
+                    <img src="images/guessing.png" class='projLink' id='picshake'>
+                </a>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-4">
+                <p class='projLink'>Cleveland's Live Music Locator
+                    <br>
+                    <a href='https://github.com/CJ785/clelivemusic' target='_blank'>See The Code</p>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <p class='projLink'>Trivia Challenge
+                    <br>
+                    <a href='https://github.com/CJ785/unit-4-game' target='_blank'>See The Code</p>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <p class='projLink'>Guess My Letter
+                    <br>
+                    <a href='https://github.com/CJ785/Psychic-game' target='_blank'> See The Code</p>
+                </a>
+            </div>
+        </div>
+        <br>
+        <!-- <div class="row">
+            <div class="col-md-4">
+                <img src="images/bus1.jpg">
+            </div>
+            <div class="col-md-4">
+                <img src="images/bus2.jpg">
+            </div>
+            <div class="col-md-4">
+                <img src="images/bus2.jpg">
+            </div>
+        </div> -->
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" id="bodyheader">
+                <h2>Contact</h2>
+            </div>
+        </div>
+        <hr>
+        <form>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                </div>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="formGroupExampleInput2"></label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Company">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput"></label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Email Address">
+            </div>
+            <div class="form-group">
+                <label for="formGroupExampleInput2"></label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Phone Number">
+            </div>
+            <div class="btn-group-toggle" data-toggle="buttons">
+                <label class="btn btn-secondary active">
+                    <input type="checkbox" checked autocomplete="off"> Send
+                </label>
+            </div>
+        </form>
+    </div>
+
+
     <footer>
-        <p>&copy Copyright &nbsp Jason Way 2018</p>
+        <p>&copy Copyright &nbsp J. W. 2018</p>
     </footer>
 </body>
 
